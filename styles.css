@@ -1,8 +1,53 @@
+
 body {
     background-color: #fffbf7;
+    font-family: 'Montserrat', sans-serif;
 }
+
+li {
+  display: inline;
+}
+.header{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+  
+}
+
+.logo > img {
+  height: 100%;
+}
+
+
+.logo {
+  width: 15%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+ 
+}
+
+.actions {
+  width: 15%;
+}
+¿Viste lo que pasó? Las acciones de usu
+
+
 h1 {
     color: #025157;
+ 
   }
   
   .texto-debajo {
@@ -14,6 +59,7 @@ h1 {
   }
   
   form .texto-blanco {
+  
     background-color: #025157;
     color: #fff;
     border: none;
@@ -24,6 +70,7 @@ h1 {
   }
   
   form button{
+    
     border: 1px solid #b6b6b6;
     padding: 6px 20px;
     width: 60%;
