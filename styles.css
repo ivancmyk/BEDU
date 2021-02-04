@@ -1,32 +1,121 @@
-
 body {
-    background-color: #fffbf7;
+  background-color: #fffbf7;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
 }
-h1 {
-    color: #025157;
-  }
-  
-  .texto-debajo {
-    color: #46484c;
-  }
-  
-  .promocional {
-    color: #8b8b8bcc;
-  }
-  
-  form .texto-blanco {
-    background-color: #025157;
-    color: #fff;
-    border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 6px 20px;
-    margin-left: -10px;
-  }
-  
-  form button{
-    border: 1px solid #b6b6b6;
-    padding: 6px 20px;
-    width: 60%;
-    max-width: 250px;
+.main {
+  margin: 140px 0 0;
+  padding: 10px;
+  text-align: center;
 }
+.main h1 {
+  color: #025157;
+  font-weight: 900;
+  font-size: 60px;
+  font-family: "Alegreya", serif;
+}
+.texto-gris {
+  color: #46484c;
+}
+.main form button {
+  color: #fff;
+  background-color: #025157;
+  height: 47px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+.main form input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 45px;
+  margin-right: -5px;
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+}
+.main .grey-text {
+  color: #a6a6a6;
+  margin-bottom: 5px;
+}
+.main .banner {
+  margin-top: 25px;
+  text-align: center;
+}
+.main .second-image {
+  width: 70%;
+}
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.header li {
+  display: inline;
+}
+.header ul {
+  padding: 0;
+}
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  height: 100%;
+  line-height: 45px;
+  vertical-align: middle;
+}
+.logo {
+  width: 20%;
+  text-align: left;
+}
+.logo > img {
+  height: 100%;
+}
+.navbar {
+  width: 60%;
+  color: #025157;
+  font-weight: 500;
+}
+.actions {
+  width: 20%;
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+}
+.actions > * {
+  margin: 0 10px;
+}
+.actions a {
+  color: #67b54b;
+}
+.actions button {
+  color: #fff;
+  background-color: #67b54b;
+  border: none;
+  padding: 20px;
+ border-radius: 5px;
+}
+.menu-item {
+  margin: 0 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

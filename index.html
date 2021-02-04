@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <title>Matcha</title>
 </head>
-
 <body>
-  <h1>Build your blog. Build your business</h1>
-  <p class="texto-debajo">Instantly publish articles, <strong>drive more traffic</strong>, grow your email list, and see
-    your blog's impact
-    on sales.</p>
-  <form>
-    <input type="email" />
-    <button class="texto-blanco" type="submit">Try it now &rarr;</button>
-  </form>
 
-  <p class="promocional">
-    Start publishing today with a free 7-day trial.
-  </p>
-  <p class="promocional">
-    No credit card required.
-  </p>
+<!-- Esta esta seccio del para navergar-->
+<section class="fixed-header">
+      <header class="header">
+        <a href="/" class="logo">
+          <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+            alt="Matcha"
+          />
+        </a>
+        <nav class="navbar">
+          <ul class="menu">
+            <li class="menu-item">Platform</li>
+            <li class="menu-item">Pricing</li>
+            <li class="menu-item">Customers</li>
+            <li class="menu-item">Resources</li>
+            <li class="menu-item">About</li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <a>Sign In</a>
+          <button>Start free trial</button>
+        </div>
+      </header>
+    </section>
 
-  <figure>
-    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Capterra" />
-  </figure>
+  <!-- Esto es lo que se verá en el navegador web -->
+  <section class="main">
+    <h1>Build your blog. Build your business</h1>
+    <p class="texto-gris">Instantly publish articles, drive more traffic, grow your email list, and see your blog's
+      impact on sales</p>
+    <p class="texto-gris">Vamos a hacer un blog como el de matcha</p>
+    <form class="signup-form">
+      <input type="email" placeholder="Enter email address" maxlength="30" />
+      <button type="submit">
+        Try it now &rarr;
+      </button>
+    </form>
+    <br />
+    <p class="grey-text">
+      Start publishing today with <strong> free 7-day trial</strong>
+    </p>
+    <p class="grey-text"><strong>No credit card</strong> required</p>
+    <figure class="banner">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Capterra" />
+    </figure>
+    <figure class="banner">
+      <img class="second-image" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png"
+        alt="Matcha elements" />
+    </figure>
+  </section>
 </body>
-
 </html>
