@@ -15,6 +15,26 @@ body {
   font-size: 60px;
   font-family: "Alegreya", serif;
 }
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish div p {
+ color: #8b8b8bcc;
+ margin-top: 15px;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
 .texto-gris {
   color: #46484c;
 }
@@ -34,6 +54,24 @@ body {
   border: 1px solid #c6c6c6;
   padding: 0 5px;
 }
+
+.publish form button {
+  color: #fff;
+  background-color: #025157;
+  height: 47px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+.publish form input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 45px;
+  margin-right: -5px;
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+}
+
 .main .grey-text {
   color: #a6a6a6;
   margin-bottom: 5px;
@@ -97,12 +135,40 @@ body {
 .menu-item {
   margin: 0 25px;
 }
+.promo{
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  margin:100px auto;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.explanatory-video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex:1;
+}
 
+.publish{
+  flex: 1;
+  padding: 0 10px;
+}
 
+.explanatory-video img{
+  width: 120px;
+  margin-top: 10px;
+}
 
+.fixed-header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left:0;
+  background-color: #fffbf7;
 
-
+}
 
 
 
