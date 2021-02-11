@@ -15,28 +15,12 @@ body {
   font-size: 60px;
   font-family: "Alegreya", serif;
 }
-
-.publish h3 {
-  font-family: "Alegreya", serif;
-  font-size: 40px;
-  line-height: 48px;
-  color: #025157;
-}
-
-.publish div p {
- color: #8b8b8bcc;
- margin-top: 15px;
-}
-
-.publish > p {
-  font-size: 16px;
-  color: #343434;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
 .texto-gris {
   color: #46484c;
+}
+.main .texto-publicitario {
+  color: #a6a6a6;
+  margin-bottom: 5px;
 }
 .main form button {
   color: #fff;
@@ -54,34 +38,19 @@ body {
   border: 1px solid #c6c6c6;
   padding: 0 5px;
 }
-
-.publish form button {
-  color: #fff;
-  background-color: #025157;
-  height: 47px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border: none;
-}
-.publish form input {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-  height: 45px;
-  margin-right: -5px;
-  border: 1px solid #c6c6c6;
-  padding: 0 5px;
-}
-
-.main .grey-text {
-  color: #a6a6a6;
-  margin-bottom: 5px;
-}
 .main .banner {
   margin-top: 25px;
   text-align: center;
 }
 .main .second-image {
   width: 70%;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fffbf7;
 }
 .header {
   margin: 40px 20px 0;
@@ -126,51 +95,133 @@ body {
   color: #67b54b;
 }
 .actions button {
-  color: #fff;
+  color: #ffffff;
   background-color: #67b54b;
   border: none;
-  padding: 20px;
- border-radius: 5px;
+  padding: 18px 20px;
+  border-radius: 5px;
+  font-weight: 800;
 }
 .menu-item {
   margin: 0 25px;
 }
-.promo{
-  display: flex;
-  width: 70%;
-  flex-direction: row;
-  margin:100px auto;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.explanatory-video{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex:1;
-}
-
-.publish{
+.publish {
   flex: 1;
   padding: 0 10px;
 }
-
-.explanatory-video img{
+.publish h3 {
+  color: #025157;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Alegreya", serif;
+}
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.publish div p {
+  color: #8b8b8bcc;
+  margin-top: 15px;
+}
+.publish form button {
+  color: #fff;
+  background-color: #025157;
+  height: 47px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+.publish form input {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 45px;
+  margin-right: -5px;
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+}
+.promo {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.explanatory-video img {
   width: 120px;
   margin-top: 10px;
 }
-
-.fixed-header{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left:0;
-  background-color: #fffbf7;
-
+.features {
+  background-color: #025157;
+  display: grid;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  padding: 5% 10%;
 }
-
-
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+.features .feature-card .feature-content {
+  flex: 2;
+  padding: 30px 20px 40px 40px;
+}
+.features .feature-card .feature-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.features .feature-card .feature-content figure {
+  margin-left: 0;
+}
+.features .feature-card .feature-content img {
+  width: 50px;
+}
+.features .feature-card .feature-content h3 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+.features .feature-card .feature-content p {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+.features .feature-card .feature-content a {
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+.features .feature-card .feature-image {
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+  transition: right .5s;
+}
+.features .feature-card .feature-image:hover {
+  right: 0px;
+}
+.features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 240px;
+}
 
 
 
