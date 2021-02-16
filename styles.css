@@ -51,6 +51,7 @@ body {
   right: 0;
   left: 0;
   background-color: #fffbf7;
+
 }
 .header {
   margin: 40px 20px 0;
@@ -226,12 +227,72 @@ body {
 
 
 
+@media (max-width: 425px){
+  .navbar,
+  .actions{
+    display: none;
+  }
+.logo{
+  display: revert;
+}
+.main h1{
+  font-size: 31px;
+}
+
+.main{
+  margin: 70px 0 0;
+}
+
+.main .banner > img {
+  width: 100%;
+}
+
+.main .second-image {
+  display: none;
+}
+
+.promo{
+flex-direction: column;
+width: 90%;
+}
+
+.promo .explanatory-video > video{
+  width: 100%;
+
+}
+
+.promo .publish > h3{
+  font-size: 20px;
+  line-height: 1.2;
+
+}
+
+.promo .publish{
+  margin-top: 10px;
+}
 
 
+.figure{
+  scale: 50%;
+}
 
+.promo .formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 
+} 
 
+.features{
+  grid-template: repeat(4, 1fr) / 1fr;
+  padding: 5% 0;
+}
 
+.features .feature-image{
+  display: none;
+
+}
 
 
 
